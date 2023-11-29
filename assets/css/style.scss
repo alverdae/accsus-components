@@ -7,12 +7,12 @@
   background-color: hsl(179,88%,24%);
 }
 
-a {
+#main_content_wrap a {
   text-decoration: underline !important;
   color: hsl(179,88%,24%) !important;
 }
 
-a:hover,
-a:focus {
+#main_content_wrap a:hover,
+#main_content_wrap a:focus {
   text-decoration: none !important;
 }
