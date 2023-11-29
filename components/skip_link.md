@@ -39,3 +39,5 @@ In the next CSS code we make the skip link visible on focus:
 ## References
 - [Understanding WCAG 2.2 success criterion 2.4.1 "Bypass blocks" (Level A)](https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks.html)
 - [W3Schools - Accessibility Skip Links](https://www.w3schools.com/accessibility/accessibility_skip_links.php)
+
+[Back to Components](/accsus-components/components/)
