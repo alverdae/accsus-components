@@ -8,10 +8,10 @@
 }
 
 #main-content a {
-  text-decoration: underline;
+  text-decoration: underline !important;
   color: #0F68B9;
 }
 
 #main-content a:hover {
-  text-decoration: none;
+  text-decoration: none !important;
 }
