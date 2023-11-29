@@ -14,21 +14,27 @@ Second: you need to add an anchor link at the start of the `<body>` tag, because
 ```<a class="skip-link" href="#site-content">Skip to the content</a>```
 
 Third: to make sure that the skip link is only visible when it receives focus, you need to style it accordingly. In the first CSS code we place it off screen: 
-```.skip-link {
+
+```
+.skip-link {
     position: absolute;
     left: -10000px;
     top: auto;
     width: 1px;
     height: 1px;
     overflow: hidden;
-}```
+}
+```
 
 In the next CSS code we make the skip link visible on focus:
-```.skip-link:focus {
+
+```
+.skip-link:focus {
     position: static;
     width: auto;
     height: auto;
-}```
+}
+```
 
 ## References
 - [Understanding WCAG 2.2 success criterion 2.4.1 "Bypass blocks" (Level A)](https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks.html)
