@@ -8,10 +8,10 @@
 }
 
 section#main-content .inner a {
-  text-decoration: underline;
-  color: hsl(179,88%,24%);
+  text-decoration: underline !important;
+  color: hsl(179,88%,24%) !important;
 }
 
 section#main-content .inner a:hover {
-  text-decoration: none;
+  text-decoration: none !important;
 }
