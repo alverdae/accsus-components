@@ -4,14 +4,14 @@
 @import "{{ site.theme }}";
 
 #forkme_banner {
-  background-color: #0F68B9;
+  background-color: hsl(179,88%,24%);
 }
 
-#main-content a {
-  text-decoration: underline !important;
-  color: #0F68B9 !important;
+section#main-content .inner a {
+  text-decoration: underline;
+  color: hsl(179,88%,24%);
 }
 
-#main-content a:hover {
-  text-decoration: none !important;
+section#main-content .inner a:hover {
+  text-decoration: none;
 }
