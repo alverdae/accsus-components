@@ -38,6 +38,10 @@ In the next CSS code we make the skip link visible on focus:
 }
 ```
 
+You can now style it further to your preferences. Keep the following in mind: 
+- The text needs a colour contrast of at least 4.5:1 to the background.
+- When styling the skip link off screen, do not set the width and height to `0`, because that could lead to problems with assistive technology. 
+
 ## References
 - [Understanding WCAG 2.2 success criterion 2.4.1 "Bypass blocks" (Level A)](https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks.html)
 - [W3Schools - Accessibility Skip Links](https://www.w3schools.com/accessibility/accessibility_skip_links.php)

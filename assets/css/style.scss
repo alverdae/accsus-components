@@ -7,6 +7,10 @@
   background-color: hsl(179,88%,24%);
 }
 
+#main_content p:first-child {
+  font-size: 0.6rem;
+}
+
 #main_content_wrap a {
   text-decoration: underline !important;
   color: hsl(179,88%,24%) !important;
