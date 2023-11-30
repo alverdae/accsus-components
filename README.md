@@ -1,4 +1,4 @@
-[Home](/accsus-components/)
+You are here: Home
 
 On [this site](https://alverdae.github.io/accsus-components/) I publish a collection of accessible and sustainable [web components](/accsus-components/components/). These can typically be used on any website and can be adapted to your needs. 
 
