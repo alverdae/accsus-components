@@ -4,19 +4,23 @@
 @import "{{ site.theme }}";
 
 #forkme_banner {
-  background-color: hsl(179,88%,24%);
+  background: hsl(179,88%,24%);
 }
 
-#main_content p:first-child {
-  font-size: 0.6rem;
+#main_content_wrap {
+  background: hsl(50,20%,90%);
 }
 
 #main_content_wrap a {
-  text-decoration: underline !important;
-  color: hsl(179,88%,24%) !important;
+  text-decoration: underline;
+  color: hsl(179,88%,24%);
 }
 
 #main_content_wrap a:hover,
 #main_content_wrap a:focus {
-  text-decoration: none !important;
+  text-decoration: none;
+}
+
+#main_content p:first-child {
+  font-size: .8rem;
 }
