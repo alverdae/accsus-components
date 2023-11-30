@@ -1,6 +1,6 @@
 [Home](/accsus-components/)
 
-On [this site](https://alverdae.github.io/accsus-components/) I publish a collection of accessible and sustainable [web components](/accsus-components/components/). These can typically be used on any website and can be adapted to your needs. 
+On this site I publish a collection of accessible and sustainable [web components](/accsus-components/components/). These can typically be used on any website and can be adapted to your needs. 
 
 ## Accessibility
 With accessible I mean components that can be used by all users, regardless of their (in)abilities. Some components are specifically made for people with a disability, to enable them to use websites. 
