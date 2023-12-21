@@ -20,7 +20,8 @@ Third: to make sure that the skip link is only visible when it receives focus, y
 ```
 .skip-link {
     position: absolute;
-    left: -10000px;
+    left: -9999px;
+    z-index: 999;
     top: auto;
     width: 1px;
     height: 1px;
@@ -45,3 +46,4 @@ You can now style it further to your preferences. Keep the following in mind:
 ## References
 - [Understanding WCAG success criterion 2.4.1 "Bypass blocks" (Level A)](https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks.html)
 - [W3Schools - Accessibility Skip Links](https://www.w3schools.com/accessibility/accessibility_skip_links.php)
+- [A11y Collective - Incorporating Skip to Main Content Links for Better Website Accessibility](https://www.a11y-collective.com/blog/skip-to-main-content/)
