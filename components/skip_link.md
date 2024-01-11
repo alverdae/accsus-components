@@ -3,7 +3,7 @@ You are here: [Home](/accsus-components/) / [Components](/accsus-components/comp
 # Skip link
 
 ## What is it?
-A skip link is the first focusable link on a web page with with a keyboard user can go directly to the main content of the web page. It is a way to skip blocks of repeated content. The skip link is usually hidden, but gets shown when it receives keyboard focus.
+A skip link is the first focusable link on a web page with which a keyboard user can directly go to the main content of the web page. It is a way to skip blocks of repeated content. The skip link is usually hidden, but gets shown when it receives keyboard focus.
 
 ## Why do we need it?
 Keyboard users use the Tab key to navigate through interactive elements on a web page. It is cumbersome if they need to tab through repeated content - such as a main menu - on every page. 
@@ -13,7 +13,8 @@ First: you need to locate the start of the unique content of the page. In this e
 ```<main id="site-content">```
 
 Second: you need to add an anchor link at the start of the `<body>` tag, because this needs to be the first focusable element (except for eventual dialogs). This is an anchor link to the element with `id="site-content"`. We also add a class to this link, so that it can be styled: 
-```<a class="skip-link" href="#site-content">Skip to the content</a>```
+
+```<a href="#site-content" class="skip-link">Skip to the content</a>```
 
 Third: to make sure that the skip link is only visible when it receives focus, you need to style it accordingly. In the first CSS code we place it off screen: 
 
@@ -44,6 +45,6 @@ You can now style it further to your preferences. Keep the following in mind:
 - When styling the skip link off screen, do not set the width and height to `0`, because that could lead to problems with assistive technology. 
 
 ## References
-- [Understanding WCAG success criterion 2.4.1 "Bypass blocks" (Level A)](https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks.html)
+- [W3C WAI - Understanding WCAG success criterion 2.4.1: Bypass Blocks (Level A)](https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks.html)
 - [W3Schools - Accessibility Skip Links](https://www.w3schools.com/accessibility/accessibility_skip_links.php)
 - [A11y Collective - Incorporating Skip to Main Content Links for Better Website Accessibility](https://www.a11y-collective.com/blog/skip-to-main-content/)
